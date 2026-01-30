@@ -8,7 +8,8 @@ metadata:
     tier: backend 
     environment: dev 
   annotations: 
-    description: "This POD is created to demonstrate annotations instructions"   
+    description: "This POD is created to demonstrate annotations instructions" 
+    jenkins: "https://jenkins.com/build/job/roboshop-catalogue/3"  
 sepc: 
   containers: 
     - name: nginx 
