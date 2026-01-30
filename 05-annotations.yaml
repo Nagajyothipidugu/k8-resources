@@ -10,7 +10,7 @@ metadata:
   annotations: 
     description: "This POD is created to demonstrate annotations instructions" 
     jenkins: "https://jenkins.com/build/job/roboshop-catalogue/3"  
-sepc: 
+spec: 
   containers: 
     - name: nginx 
       image: nginx     
