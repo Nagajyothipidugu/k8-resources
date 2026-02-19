@@ -31,7 +31,7 @@ kind: Pod
 metadata:
   name: nginx
   labels: 
-   purpose: ebs-static
+   purpose: ebs-static-demo
    project: roboshop  
 spec:
   nodeSelector: 
@@ -53,12 +53,12 @@ metadata:
   name: ebs-static
   #service labels 
   labels: 
-    purpose: ebs-static
+    purpose: ebs-static-demo
     project: roboshop 
 spec: 
   type: LoadBalancer
   selector: 
-    purpose: ebs-static
+    purpose: ebs-static-demo
     project: roboshop
      
   ports: 
