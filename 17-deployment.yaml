@@ -37,9 +37,9 @@ metadata:
      purpose: service-demo 
 spec: 
   selector: 
-    purpose: service-demo 
-    project: roboshop
-    app: nginx 
+    purpose: deployment-demo 
+    project: roboshop 
+    app: nginx
   ports: 
    - protocol: TCP 
      port:  80 # Service Port
