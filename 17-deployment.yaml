@@ -39,7 +39,7 @@ spec:
   selector: 
     purpose: service-demo 
     project: roboshop
-    environment: dev 
+    app: nginx 
   ports: 
    - protocol: TCP 
      port:  80 # Service Port
